@@ -489,6 +489,18 @@ void myDisplay()
     glFlush();
 }
 
+void drawTiling()
+{
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    for (int i = 0; i < 5; i++)
+        for (int j = 0; j < 5; j++)
+        {
+            glViewport(i * 120, j * 120, 120, 120);
+
+            myDisplay();
+        }
+}
+
 int main(int argc, char** argv)
 {
     glutInit(&argc, argv);
@@ -496,7 +508,7 @@ int main(int argc, char** argv)
     glutInitWindowSize(600, 600);
     glutInitWindowPosition(350, 100);
     glutCreateWindow("TTS_GRAFKOM_H_672018072");
-    glutDisplayFunc(myDisplay);
+    glutDisplayFunc(drawTiling);
     init();
     glutMainLoop();
 }
