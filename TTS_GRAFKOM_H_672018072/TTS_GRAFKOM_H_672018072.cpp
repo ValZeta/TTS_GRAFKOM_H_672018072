@@ -264,6 +264,228 @@ void myDisplay()
     glVertex2f(1.00, -0.65);
     glEnd();
     //------------------------------------------------------------------------------------------------------
+       //..pojok kiri atas
+    //kanan
+    glBegin(GL_TRIANGLES);
+    glColor3f(0.00, 0.00, 0.00);
+    glVertex2f(-1.00, 0.80);
+    glVertex2f(-0.60, 1.00);
+    glVertex2f(-1.00, 1.00);
+    glEnd();
+    //kanan bawah
+    glBegin(GL_TRIANGLES);
+    glColor3f(0.00, 0.00, 0.00);
+    glVertex2f(-0.82, 1.00);
+    glVertex2f(-0.70, 0.70);
+    glVertex2f(-1.00, 0.82);
+    glEnd();
+    //bawah
+    glBegin(GL_TRIANGLES);
+    glColor3f(0.00, 0.00, 0.00);
+    glVertex2f(-1.00, 0.60);
+    glVertex2f(-0.80, 1.00);
+    glVertex2f(-1.00, 1.00);
+    glEnd();
+    //..pojok kiri bawah
+    //kanan
+    glBegin(GL_TRIANGLES);
+    glColor3f(0.00, 0.00, 0.00);
+    glVertex2f(-1.00, -0.80);
+    glVertex2f(-0.60, -1.00);
+    glVertex2f(-1.00, -1.00);
+    glEnd();
+    //kanan bawah
+    glBegin(GL_TRIANGLES);
+    glColor3f(0.00, 0.00, 0.00);
+    glVertex2f(-0.82, -1.00);
+    glVertex2f(-0.70, -0.70);
+    glVertex2f(-1.00, -0.82);
+    glEnd();
+    //bawah
+    glBegin(GL_TRIANGLES);
+    glColor3f(0.00, 0.00, 0.00);
+    glVertex2f(-1.00, -0.60);
+    glVertex2f(-0.80, -1.00);
+    glVertex2f(-1.00, -1.00);
+    glEnd();
+    //..pojok kanan bawah
+    //kanan
+    glBegin(GL_TRIANGLES);
+    glColor3f(0.00, 0.00, 0.00);
+    glVertex2f(1.00, -0.80);
+    glVertex2f(0.60, -1.00);
+    glVertex2f(1.00, -1.00);
+    glEnd();
+    //kanan bawah
+    glBegin(GL_TRIANGLES);
+    glColor3f(0.00, 0.00, 0.00);
+    glVertex2f(0.82, -1.00);
+    glVertex2f(0.70, -0.70);
+    glVertex2f(1.00, -0.82);
+    glEnd();
+    //bawah
+    glBegin(GL_TRIANGLES);
+    glColor3f(0.00, 0.00, 0.00);
+    glVertex2f(1.00, -0.60);
+    glVertex2f(0.80, -1.00);
+    glVertex2f(1.00, -1.00);
+    glEnd();
+    //..pojok kanan atas
+    //kanan
+    glBegin(GL_TRIANGLES);
+    glColor3f(0.00, 0.00, 0.00);
+    glVertex2f(1.00, 0.80);
+    glVertex2f(0.60, 1.00);
+    glVertex2f(1.00, 1.00);
+    glEnd();
+    //kanan bawah
+    glBegin(GL_TRIANGLES);
+    glColor3f(0.00, 0.00, 0.00);
+    glVertex2f(0.82, 1.00);
+    glVertex2f(0.70, 0.70);
+    glVertex2f(1.00, 0.82);
+    glEnd();
+    //bawah
+    glBegin(GL_TRIANGLES);
+    glColor3f(0.00, 0.00, 0.00);
+    glVertex2f(1.00, 0.60);
+    glVertex2f(0.80, 1.00);
+    glVertex2f(1.00, 1.00);
+    glEnd();
+    //----------------------------------------------------------------------------------------------------
+      //..atas
+    glBegin(GL_POLYGON);
+    glColor3f(0.00, 0.00, 0.00);
+    glVertex2f(-0.10, 0.60);
+    glVertex2f(0.00, 0.70);
+    glVertex2f(0.10, 0.60);
+    glVertex2f(0.05, 0.45);
+    glVertex2f(-0.05, 0.45);
+    glEnd();
+    //..bawah
+    glBegin(GL_POLYGON);
+    glColor3f(0.00, 0.00, 0.00);
+    glVertex2f(-0.10, -0.60);
+    glVertex2f(0.00, -0.70);
+    glVertex2f(0.10, -0.60);
+    glVertex2f(0.05, -0.45);
+    glVertex2f(-0.05, -0.45);
+    glEnd();
+    //..kiri
+    glBegin(GL_POLYGON);
+    glColor3f(0.00, 0.00, 0.00);
+    glVertex2f(-0.70, 0.00);
+    glVertex2f(-0.60, 0.10);
+    glVertex2f(-0.40, 0.05);
+    glVertex2f(-0.40, -0.05);
+    glVertex2f(-0.60, -0.10);
+    glEnd();
+    //..kanan
+    glBegin(GL_POLYGON);
+    glColor3f(0.00, 0.00, 0.00);
+    glVertex2f(0.70, 0.00);
+    glVertex2f(0.60, 0.10);
+    glVertex2f(0.40, 0.05);
+    glVertex2f(0.40, -0.05);
+    glVertex2f(0.60, -0.10);
+    glEnd();
+    //..kiri atas
+    glBegin(GL_POLYGON);
+    glColor3f(0.00, 0.00, 0.00);
+    glVertex2f(-0.45, 0.35);
+    glVertex2f(-0.45, 0.45);
+    glVertex2f(-0.35, 0.45);
+    glVertex2f(-0.27, 0.32);
+    glVertex2f(-0.32, 0.26);
+    glEnd();
+    //..kanan atas
+    glBegin(GL_POLYGON);
+    glColor3f(0.00, 0.00, 0.00);
+    glVertex2f(0.45, 0.35);
+    glVertex2f(0.45, 0.45);
+    glVertex2f(0.35, 0.45);
+    glVertex2f(0.27, 0.32);
+    glVertex2f(0.32, 0.26);
+    glEnd();
+    //..kiri bawah
+    glBegin(GL_POLYGON);
+    glColor3f(0.00, 0.00, 0.00);
+    glVertex2f(-0.45, -0.35);
+    glVertex2f(-0.45, -0.45);
+    glVertex2f(-0.35, -0.45);
+    glVertex2f(-0.27, -0.32);
+    glVertex2f(-0.32, -0.26);
+    glEnd();
+    //..kanan bawah
+    glBegin(GL_POLYGON);
+    glColor3f(0.00, 0.00, 0.00);
+    glVertex2f(0.45, -0.35);
+    glVertex2f(0.45, -0.45);
+    glVertex2f(0.35, -0.45);
+    glVertex2f(0.27, -0.32);
+    glVertex2f(0.32, -0.26);
+    glEnd();
+    //---------------------------------------------------------------------------------------------
+    //..pojok kanan atas
+    glBegin(GL_POLYGON);
+    glColor3f(0.00, 0.00, 0.00);
+    glVertex2f(0.97, 0.50);
+    glVertex2f(1.00, 0.50);
+    glVertex2f(1.00, 0.25);
+    glVertex2f(0.93, 0.30);
+    glEnd();
+    glBegin(GL_POLYGON);
+    glColor3f(0.00, 0.00, 0.00);
+    glVertex2f(0.25, 1.00);
+    glVertex2f(0.32, 0.92);
+    glVertex2f(0.50, 0.97);
+    glVertex2f(0.50, 1.00);
+    glEnd();
+    //..pojok kiri atas
+    glBegin(GL_POLYGON);
+    glColor3f(0.00, 0.00, 0.00);
+    glVertex2f(-0.97, 0.50);
+    glVertex2f(-1.00, 0.50);
+    glVertex2f(-1.00, 0.25);
+    glVertex2f(-0.93, 0.30);
+    glEnd();
+    glBegin(GL_POLYGON);
+    glColor3f(0.00, 0.00, 0.00);
+    glVertex2f(-0.25, 1.00);
+    glVertex2f(-0.32, 0.92);
+    glVertex2f(-0.50, 0.97);
+    glVertex2f(-0.50, 1.00);
+    glEnd();
+    //..pojok kanan bawah
+    glBegin(GL_POLYGON);
+    glColor3f(0.00, 0.00, 0.00);
+    glVertex2f(0.97, -0.50);
+    glVertex2f(1.00, -0.50);
+    glVertex2f(1.00, -0.25);
+    glVertex2f(0.93, -0.30);
+    glEnd();
+    glBegin(GL_POLYGON);
+    glColor3f(0.00, 0.00, 0.00);
+    glVertex2f(0.25, -1.00);
+    glVertex2f(0.32, -0.92);
+    glVertex2f(0.50, -0.97);
+    glVertex2f(0.50, -1.00);
+    glEnd();
+    //..pojok kiri bawah
+    glBegin(GL_POLYGON);
+    glColor3f(0.00, 0.00, 0.00);
+    glVertex2f(-0.97, -0.50);
+    glVertex2f(-1.00, -0.50);
+    glVertex2f(-1.00, -0.25);
+    glVertex2f(-0.93, -0.30);
+    glEnd();
+    glBegin(GL_POLYGON);
+    glColor3f(0.00, 0.00, 0.00);
+    glVertex2f(-0.25, -1.00);
+    glVertex2f(-0.32, -0.92);
+    glVertex2f(-0.50, -0.97);
+    glVertex2f(-0.50, -1.00);
+    glEnd();
     glFlush();
 }
 
